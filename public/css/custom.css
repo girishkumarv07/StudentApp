@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    /* color: blue; */
+}
+ 
+#navbarBlock {
+    width: 100%;
+    height: 70px;
+    background-color:aqua;
+    color: wheat;
+}
+
+#navbarBlock article {
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbarBlock article > div {
+    flex-basis: 50%;
+}
+
+/* .menuBlock {
+    flex-basis: auto;
+    width: auto;
+}  */
+
+.logoBlock img {
+    width: auto;
+    height: 42px;
+}
+
+.menuBlock {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menuBlock nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.menuBlock nav ul li a {
+    color: orangered;
+    padding: 10px 20px;
+    font-weight:bolder;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.menuBlock nav ul li a:hover {
+    background-color: #efefef;
+    border-radius: 10px;
+    color: #111;
+}
+
+#contactForm article {
+    width: 85%;
+    height: 100vh;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff;
+}
+#contactForm article form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#contactForm article div {
+    flex-basis: 23%;
+    margin: 4px;
+    min-height: 100px;
+}
+#contactForm article div label {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0;
+}
+#contactForm article div input ,
+#contactForm article div textArea {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#contactForm article div button {
+    background-color: orangered;
+    color: #fff;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contactForm article div button:hover {
+    background-color: #111;
+}
+h1 {
+    color: orangered;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+div.textArea {
+    flex-basis: 100% !important;
+}
